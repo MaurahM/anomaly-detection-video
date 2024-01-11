@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="my.css">
+
+    <title>Video Classifier</title>
+</head>
+<body>
+    <h1>Video Classifier</h1>
+    <form action="/classify" method="post" enctype="multipart/form-data">
+        <label for="video">Select a video file:</label>
+        <input type="file" name="video_path" accept=".mp4, .avi" required>
+        <br>
+        <input type="submit" value="Classify">
+    </form>
+</body>
+</html>
